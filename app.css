@@ -1,0 +1,99 @@
+/********************
+To-do list
+by Fernanda Pacheco 
+*********************
+1- Basic html
+2- List 
+3- Buttons
+4- Query 
+*********************/
+
+/* ******************
+1- Basic HTML
+*********************/
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #3378FF;
+    margin-bottom: 8px;
+}
+
+#container {
+    width: 60%;
+    margin-top: 32px;
+}
+
+i {
+    margin-right: 8px;
+}
+
+/* ******************
+2- List
+*********************/
+.todo-default {
+    background-color: #F5F5F5;
+    padding: 4px 16px;
+    margin: 4px 0;
+}
+
+.todo-complete {
+    background-color: #F5F5F5;
+    text-decoration: line-through;
+    color: #797979;
+}
+
+.item {
+    padding: 4px;
+    margin-left: 8px;
+}
+
+.item:focus {
+    border: solid blue 1px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ******************
+3- Buttons
+*********************/
+
+#a-btn {
+    background-color: #3378FF;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 8px;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 400;
+    border-radius: 5px;
+    margin: 16px 0;
+}
+
+.fa-icon {
+    color: white;
+    background-color:#EB5757;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ******************
+4- Media
+*********************/
+@media(max-width:720px){
+    #container {
+        width: 90%;
+    }
+}
