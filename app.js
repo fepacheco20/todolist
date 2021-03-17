@@ -40,7 +40,7 @@ list.addEventListener("click", function (e) {
 })
 
 window.addEventListener('keydown', function (e) {
-    if (e.code === "Enter") {
+    if (e.keyCode === 13) {
         e.preventDefault();
         newItem();
     }
